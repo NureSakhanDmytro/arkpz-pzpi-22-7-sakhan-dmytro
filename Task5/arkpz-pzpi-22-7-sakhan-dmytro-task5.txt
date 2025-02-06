@@ -66,8 +66,9 @@ IoT-клієнт реалізований у вигляді консольног
 4.3 Висновки
 Під час виконання лабораторної роботи було розгорнуто серверну частину та IoT-клієнт, налаштовано їхню взаємодію, перевірено функціональність системи відповідно до описаного у Vision & Scope. Усі етапи роботи, включаючи перевірку бізнес-логіки, функцій адміністрування та взаємодії IoT-клієнта із сервером, було продемонстровано у відеозаписі. Реалізована програмна система відповідає поставленим завданням і є готовою до подальшого розвитку в наступному семестрі, де буде створено фронтенд та мобільний додаток.
  
-Посилання на відеопрезентацію:
+Посилання на відеопрезентацію: 
  https://youtu.be/uy-F4bUFHSc
-Посилання на Github-репозиторій: https://github.com/NureSakhanDmytro/arkpz-pzpi-22-7-sakhan-dmytro/blob/main/Task5
+Посилання на проект: 
+https://github.com/NureSakhanDmytro/arkpz-pzpi-22-7-sakhan-dmytro/blob/main/Task5/arkpz-pzpi-22-7-sakhan-dmytro-task5.txt
         Посилання на Github-репозиторій: 
-https://github.com/NureSakhanDmytro/arkpz-pzpi-22-7-sakhan-dmytro.git
+   https://github.com/NureSakhanDmytro/arkpz-pzpi-22-7-sakhan-dmytro
