@@ -66,5 +66,5 @@ ________________________________________
 Посилання на GitHub репозиторій:
  https://github.com/NureSakhanDmytro/arkpz-pzpi-22-7-sakhan-dmytro
 Посилання на GitHub:
- https://github.com/NureSakhanDmytro/arkpz-pzpi-22-7-sakhan-dmytro/edit/main/Pract1
+ https://github.com/NureSakhanDmytro/arkpz-pzpi-22-7-sakhan-dmytro/blob/main/Pract1/arkpz-pzpi-22-7-sakhan-dmytro-pract1.txt
 Посилання на відеопрезентацію: https://www.youtube.com/watch?v=JDCxvCRvBko
