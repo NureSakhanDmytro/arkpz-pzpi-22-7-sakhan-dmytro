@@ -104,5 +104,8 @@
 Посилання на відеопрезентацію: 
 https://youtu.be/Our8T1ZhJvw
 
+Посилання на проект:
+https://github.com/NureSakhanDmytro/arkpz-pzpi-22-7-sakhan-dmytro/blob/main/Pract2/arkpz-pzpi-22-7-sakhan-dmytro-pract2.txt
+
 Посилання на репозиторій:
-https://github.com/Jopselion/arkpz-pzpi-22-7-sakhan-dmytro/edit/main/Pract2
+https://github.com/NureSakhanDmytro/arkpz-pzpi-22-7-sakhan-dmytro
