@@ -96,5 +96,10 @@ namespace WinFormsApp4._5
                 btnShowPassword.Text = "👁️"; // Change icon to "Show"
             }
         }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

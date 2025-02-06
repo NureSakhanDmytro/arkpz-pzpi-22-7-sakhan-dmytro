@@ -31,33 +31,28 @@
         private void InitializeComponent()
         {
             menuStrip = new MenuStrip();
-            plantingSeasonsMenuItem = new ToolStripMenuItem();
             soilAnalysisMenuItem = new ToolStripMenuItem();
             weatherDataMenuItem = new ToolStripMenuItem();
+            plantingSeasonsMenuItem = new ToolStripMenuItem();
             рекоментаціїToolStripMenuItem = new ToolStripMenuItem();
+            администруванняToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
+            админКуточокToolStripMenuItem = new ToolStripMenuItem();
             menuStrip.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip
             // 
             menuStrip.ImageScalingSize = new Size(19, 19);
-            menuStrip.Items.AddRange(new ToolStripItem[] { soilAnalysisMenuItem, weatherDataMenuItem, plantingSeasonsMenuItem, рекоментаціїToolStripMenuItem });
+            menuStrip.Items.AddRange(new ToolStripItem[] { soilAnalysisMenuItem, weatherDataMenuItem, plantingSeasonsMenuItem, рекоментаціїToolStripMenuItem, администруванняToolStripMenuItem });
             menuStrip.Location = new Point(0, 0);
             menuStrip.Name = "menuStrip";
-            menuStrip.Size = new Size(710, 28);
+            menuStrip.Size = new Size(810, 28);
             menuStrip.TabIndex = 0;
             menuStrip.Text = "menuStrip";
-            // 
-            // plantingSeasonsMenuItem
-            // 
-            plantingSeasonsMenuItem.Name = "plantingSeasonsMenuItem";
-            plantingSeasonsMenuItem.Size = new Size(134, 24);
-            plantingSeasonsMenuItem.Text = "Сезони висадки";
-            plantingSeasonsMenuItem.Click += plantingSeasonsMenuItem_Click;
             // 
             // soilAnalysisMenuItem
             // 
@@ -73,12 +68,27 @@
             weatherDataMenuItem.Text = "Метеорологічні дані";
             weatherDataMenuItem.Click += weatherDataMenuItem_Click;
             // 
+            // plantingSeasonsMenuItem
+            // 
+            plantingSeasonsMenuItem.Name = "plantingSeasonsMenuItem";
+            plantingSeasonsMenuItem.Size = new Size(134, 24);
+            plantingSeasonsMenuItem.Text = "Сезони висадки";
+            plantingSeasonsMenuItem.Click += plantingSeasonsMenuItem_Click;
+            // 
             // рекоментаціїToolStripMenuItem
             // 
             рекоментаціїToolStripMenuItem.Name = "рекоментаціїToolStripMenuItem";
-            рекоментаціїToolStripMenuItem.Size = new Size(147, 24);
-            рекоментаціїToolStripMenuItem.Text = "Recommendations";
+            рекоментаціїToolStripMenuItem.Size = new Size(116, 24);
+            рекоментаціїToolStripMenuItem.Text = "Рекомендації";
             рекоментаціїToolStripMenuItem.Click += рекоментаціїToolStripMenuItem_Click;
+            // 
+            // администруванняToolStripMenuItem
+            // 
+            администруванняToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { админКуточокToolStripMenuItem });
+            администруванняToolStripMenuItem.Name = "администруванняToolStripMenuItem";
+            администруванняToolStripMenuItem.Size = new Size(140, 24);
+            администруванняToolStripMenuItem.Text = "Адміністрування";
+            администруванняToolStripMenuItem.Click += AdminToolStripMenuItem_Click;
             // 
             // label1
             // 
@@ -117,11 +127,18 @@
             label4.TabIndex = 4;
             label4.Text = "3)Дотримуйтесь рекомендацій для досягнення найкращих результатів";
             // 
+            // админКуточокToolStripMenuItem
+            // 
+            админКуточокToolStripMenuItem.Name = "админКуточокToolStripMenuItem";
+            админКуточокToolStripMenuItem.Size = new Size(217, 26);
+            админКуточокToolStripMenuItem.Text = "Админ куточок";
+            админКуточокToolStripMenuItem.Click += админКуточокToolStripMenuItem_Click;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(710, 356);
+            ClientSize = new Size(810, 400);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -170,5 +187,7 @@
         private Label label2;
         private Label label3;
         private Label label4;
+        private ToolStripMenuItem администруванняToolStripMenuItem;
+        private ToolStripMenuItem админКуточокToolStripMenuItem;
     }
 }

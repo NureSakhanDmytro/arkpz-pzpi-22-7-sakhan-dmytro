@@ -75,5 +75,17 @@ namespace WinFormsApp4._5
         {
 
         }
+
+        private void AdminToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AdminLoginForm admin = new AdminLoginForm();
+            admin.Show(); // Вызовите метод Show для экземпляра admin
+        }
+
+        private void админКуточокToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            админКуточок админКуточок = new админКуточок();
+            админКуточок.Show();
+        }
     }
 }
